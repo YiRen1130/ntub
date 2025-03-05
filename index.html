@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <style>
+        * {
+			margin:5px;
+			margin-top:0;
+			margin-bottom:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+			background-color:#B9FF2D;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        #header, #footer {
+			display: flex;
+			flex-direction: row;
+			justify-content:space-between;
+            background-color:#B9FF2D;
+        }
+		#footer{
+			padding-bottom:5px;
+		}
+		#header {
+			margin-top: 15px;
+		}
+		#title{
+			color:#8D8DFD;
+			text-align:left;
+			font-size:14px;
+			padding: 5px ;
+			margin-top: 5px;
+			margin-left:12px;
+		}
+		#nav{
+			text-align: right;
+			margin-right: 50px;
+			margin-left: 50px;
+			margin-top: 5px;
+		}
+		#nav a{
+			color:#8D8DFD;
+			display: inline-block;
+			text-decoration: none;
+			padding-right: 140px;
+			margin: 5px auto;
+			text-align: center;
+			border-radius: 5px;
+		}
+		#nav a:hover{
+			text-decoration:underline;
+		}
+        #content {
+            flex: 1;
+            display: flex;
+        }
+        #column {
+            flex: 1;
+			flex-direction: column;
+        }
+		#column h1{
+			margin-top:150px;
+			font-size:60px;
+			color:#8D8DFD;
+			padding-right:60px;
+			font-weight: 200;
+		}
+		#column img{
+			margin-left: 50px;
+			width: 550px;
+			height: auto;
+			margin-top: 10px;
+		}
+		#text-content-CH{
+			font-size:18px;
+			color:#8D8DFD;
+			margin-top:100px;
+			padding-right:60px;
+		}
+		#text-content-EN{
+			font-size:18px;
+			color:#8D8DFD;
+			margin-top:60px;
+			padding-right:60px;
+		}
+		#copyright{
+			color:#BABABA;
+		}
+		#socialmedia{
+			flex:1;
+			display:flex;
+			padding-left:450px;
+			padding-right:200px;
+		}
+		#socialmedia a{
+			color:#8D8DFD;
+			display: inline-block;
+			text-decoration: none;
+			margin: 5px auto;
+			text-align: center;
+		}
+		#icon{
+			display:flex;
+			flex-direction:row;
+			margin-right:55px;
+		}
+        #content > div:last-child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+		<div id="title">NTUB CDM GRADUATION EXHIBITION 2025 國立台北商業大學 商業設計管理系 114級畢業展</div>
+		<div id="nav">
+			<a href="#">ABOUT</a>
+			<a href="#">WORKS</a>
+			<a href="#">ARCHIVE</a>
+		</div>
+	</div>
+		
+    <div id="content">
+        <div id="column">
+			<div>
+				<h1>BEYOND BOUNDARIES 邊界<br>以外</h1>
+			</div>
+			<div id="text-content-CH">
+				當身處房間內,透過窗戶的框架向外望去,可以找到無限的可能性。同樣的,當完成一件作品,視覺上往往被紙張<br>或畫面中的四個邊界所侷限。然而,透過「邊界以外」的理念傳達,鼓勵觀者打破這些限制,探索框架外的未知<br>領域。身處社會中,人們常被無形的規範束縛,但在設計時,卻可以超越框架的束縛,進行創新與構思。期許觀者<br>在未來的人生旅途上,持續望向邊界以外,探索更多可能。
+			</div>
+			<div id="text-content-EN">
+				When standing inside a room and looking out through the frame of a window, one can discover<br>infinite possibilities. Similarly, when completing a piece of work, the visual presentation is often<br>confined by the four edges of the paper or canvas. However, through the concept of "Beyond<br>Boundaries," viewers are encouraged to break free from these limitations and explore the un-<br>known realms beyond the frame. In society, people are often constrained by invisible norms, but<br>in design, it is possible to transcend these boundaries and innovate freely. It is my hope that view-<br>ers will continue to look beyond boundaries in their life journeys, seeking endless possibilities.
+			</div>
+		</div>
+        <div id="column">
+			<img src="beyond-boundaries-poster.png" alt="Beyond Boundaries Poster">
+		</div>
+    </div>
+    <div id="footer">
+		<div id="copyright">
+			© 2025 國立臺北商業大學 商業設計管理系114級畢業展
+		</div>
+		<div id="socialmedia">
+			<a href="https://www.instagram.com/ntub_cdm_grad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">INSTAGRAN</a>
+			<a href="https://www.facebook.com/ntubcdmexhibition" target="_blank">FACEBOOK</a>
+			<a href="https://cdm.ntub.edu.tw/index.php?cookiesession8341=G1I9YG9ECN0X7CMTGYUSJFNKAXGDD4YJ" target="_blank">NTUB CDM WEBSITE</a>
+		</div>
+		<div id="icon">
+			<img src="icon01.png">
+			<img src="icon02.png">
+		</div>
+	</div>
+</body>
+</html>
+
+
